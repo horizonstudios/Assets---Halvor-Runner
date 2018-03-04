@@ -27,20 +27,20 @@ public class PlayerMovement : MonoBehaviour
         //Animations
         if (horizontal < -0.1f)
         {
-            gameObject.GetComponent<SpriteRenderer>().flipX = true;
+            gameObject.GetComponent<SpriteRenderer>().flipX = false;
         }
         else if (horizontal > 0.1f)
         {
-            gameObject.GetComponent<SpriteRenderer>().flipX = false;
+            gameObject.GetComponent<SpriteRenderer>().flipX = true;
         }
 
         if (vertical < -0.1f)
         {
-            gameObject.GetComponent<SpriteRenderer>().flipY = false;
+            gameObject.GetComponent<SpriteRenderer>().flipY = true;
         }
         else if (vertical > 0.1f)
         {
-            gameObject.GetComponent<SpriteRenderer>().flipY = true;
+            gameObject.GetComponent<SpriteRenderer>().flipY = false;
         }
         #endregion
 

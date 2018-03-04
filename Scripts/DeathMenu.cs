@@ -9,7 +9,7 @@ public class DeathMenu : MonoBehaviour {
     public Text keysText;
     // Use this for initialization
     void Start() {
-        gameObject.SetActive(false);
+        gameObject.SetActive(true);
     }
 
     // Update is called once per frame
