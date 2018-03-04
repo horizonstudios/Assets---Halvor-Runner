@@ -27,11 +27,11 @@ public class PlayerMovement : MonoBehaviour
         //Animations
         if (horizontal < -0.1f)
         {
-            gameObject.GetComponent<SpriteRenderer>().flipX = false;
+            gameObject.GetComponent<SpriteRenderer>().flipX = true;
         }
         else if (horizontal > 0.1f)
         {
-            gameObject.GetComponent<SpriteRenderer>().flipX = true;
+            gameObject.GetComponent<SpriteRenderer>().flipX = false;
         }
 
         if (vertical < -0.1f)
